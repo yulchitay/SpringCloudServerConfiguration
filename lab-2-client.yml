@@ -1,0 +1,6 @@
+currency-data:
+  usd: 40.25
+  eur: 43.15
+  pln: 9.85
+  jpy: 0.27
+  fallback-used: false
