@@ -1,0 +1,28 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+
+---
+spring.config.activate.on-profile: usd
+rate:
+  min: 40.50
+  max: 41.62
+  
+---
+spring.config.activate.on-profile: eur
+rate:
+  min: 44.80
+  max: 46.02
+
+---
+spring.config.activate.on-profile: pln
+rate:
+  min: 10.20
+  max: 10.55
+
+---
+spring.config.activate.on-profile: jpy
+rate:
+  min: 0.26
+  max: 0.28
